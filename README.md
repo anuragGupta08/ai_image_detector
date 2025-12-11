@@ -31,9 +31,10 @@ This repository is part of the EECS Club Winter Projects, built by Members of EE
 ## 🏗️ System Architecture
 ```mermaid
 graph TB
-    A[Frontend - React + Tailwind] --> B[API Layer - FastAPI]
-    B --> C[Inference Serivce]
-    C --> D[Model Store (Weightd +Art)]
+    A["Frontend - React + Tailwind"] --> B["API Layer - FastAPI"]
+    B --> C["Inference Service - CLIP Embeddings + Classifier (MLP / LogReg)"]
+    C --> D["Model Store (Weights + Artifacts)"]
+
 ```
 
 ### 📚 Tech Stack
